@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.header {
+    width: 1110px;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px 0 50px 0;
+    grid-column-start: auto;
+}
+
+.header_logo {
+    margin-left: 130px;
+    margin-top: 40px;
+
+
+}
+
+
+.header_link {
+    display: grid;
+}
+
+ol {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;    
+    list-style: none;
+    text-align: center;
+    font-weight: bold;
+
+}
+.link {
+    text-decoration: none;
+    display: grid;
+    margin-top: 100px;
+}
+/* HEADER */
+
+
+/* BODY */
+
+
+
+
+
+/* BODY */
+
+
+/* FOOTER */ 
+
+footer {
+    height: 888px;
+    width: 526;
+    background-color: black;
+    display: grid;
+}
+
+.footer_tall {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-start: auto;
+}
+
+
+.logo_footer {
+    margin-left: 170px;
+    margin-top: -90px;
+}
+
+h1 {
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3 {
+    display: grid;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    grid-template-rows: 0px;
+
+ }
+
+ .container {
+     display: grid;
+     grid-column-start: 2;
+     grid-column-end: 3;
+     grid-template-rows: 550px;
+}
+
+ .social-link {
+    display: grid;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+}
+
+.social-link.facebook {
+    background-image: url('png/fb.png');
+}
+
+.social-link.instagram {
+    background-image: url('png/ig.png');
+}
+
+.social-link.linkedin {
+    background-image: url('png/ln.png');
+}
+
+.social-link.tiktok {
+    background-image: url('png/tk.png');
+}
+
+.social-link.youtube{
+    background-image: url('png/yt.png');
+}
+
+.social-link.twitter{
+    background-image: url('png/tw.png');
+}
+
+.social-link.weibo{
+    background-image: url('png/wb.png');
+}
