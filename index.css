@@ -39,6 +39,13 @@ ol {
     text-decoration: none;
     display: grid;
     margin-top: 100px;
+    color: black;
+}
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
 }
 /* HEADER */
 
@@ -46,8 +53,12 @@ ol {
 /* BODY */
 
 
-
-
+/* CAROUSEL */
+#carousel .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+}
+/* CAROUSEL */
 
 /* BODY */
 
@@ -55,10 +66,9 @@ ol {
 /* FOOTER */ 
 
 footer {
-    height: 888px;
-    width: 526;
+    height: 517px;
     background-color: black;
-    display: grid;
+    display: block;
 }
 
 .footer_tall {
@@ -69,7 +79,7 @@ footer {
 
 
 .logo_footer {
-    margin-left: 170px;
+    margin-left: 165px;
     margin-top: -90px;
 }
 
@@ -79,58 +89,77 @@ h1 {
     font-weight: 900;
     text-align: center;
     margin-top: 50px;
+    font-family: MilanTypeRev, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h3 {
-    display: grid;
     font-size: 16px;
     color: white;
-    font-weight: 500;
-    grid-column-start: 2;
-    grid-column-end: 3;
+    font-weight: bold;
+    text-transform: uppercase;
     text-align: center;
-    grid-template-rows: 0px;
+    letter-spacing: 0.44px;
+    margin-top: 35px;
 
- }
-
- .container {
-     display: grid;
-     grid-column-start: 2;
-     grid-column-end: 3;
-     grid-template-rows: 550px;
 }
 
- .social-link {
-    display: grid;
-    width: 30px;
-    height: 30px;
-    background-size: 30px 30px;
+.container {
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 2;
 }
 
-.social-link.facebook {
-    background-image: url('png/fb.png');
+ul {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 35px;
 }
 
-.social-link.instagram {
-    background-image: url('png/ig.png');
+li {
+    padding: 0px 16.5px;
 }
 
-.social-link.linkedin {
-    background-image: url('png/ln.png');
+.guion {
+    width: calc(100% - 800px);
+    opacity: 0.1;
+    margin: 20px auto 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
 }
 
-.social-link.tiktok {
-    background-image: url('png/tk.png');
+.copi {
+    font-size: 10px;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.83;
+    letter-spacing: 0.33px;
+    color: rgb(255, 255, 255);
+    padding: 30px 0px;
 }
 
-.social-link.youtube{
-    background-image: url('png/yt.png');
+p {
+    margin: 0px;
 }
 
-.social-link.twitter{
-    background-image: url('png/tw.png');
+.down {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: -110px;
 }
 
-.social-link.weibo{
-    background-image: url('png/wb.png');
+.end {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-right: 15px;
+    text-transform: uppercase;
+
 }
